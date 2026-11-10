@@ -1,27 +1,19 @@
 # med-hunt
 
-## Problem
-With pharmacies chronically understaffed and disinclined to answer the phone, patients looking for any medication that's experiencing a shortage or on backorder face an agonizing process of calling around, waiting on hold (tortured by hold music and messages), wasting a lot of time trying to find any pharmacy that has their medication in stock. 
+Web app to crowdsource pharmacy inventory information for medications on back order and experiencing a shortage.
 
-## Potential solution
-Create a GasBuddy-style web app where patients can report answers from pharmacies they've contacted, giving the next patient receiving a new prescription or needing a refill a hand getting started finding their medication. 
+## Status
+Early development: MVP in progress. Not yet available for public use.
+
+## Problem
+When there are medication shortages, finding a pharmacy that has your medication in stock can be a frustrating and time-consuming process. Patients have to call each individual pharmacy and wait on hold for extended periods of time for a real human to become available.
+
+## Solution
+Create a GasBuddy-style web app where patients can report answers from pharmacies they've contacted, which then provide better starting points for the next patient who starts making calls. 
 
 Build one repo that can be repurposed for different medication shortages.
 
-Possibly link to ProPublica's Rx Inspector.
-
-## Example
-There has been a shortage of estrogen patches during 2025 and 2026. Finding pataches in a specific dose may require calling all the pharmacies in your area to find one that has it in stock. 
-
-### Step 1: Establish currency of problem
-Brief survey of community for indications that a) the shortage is still widespread and b) does not appear to be resolving.
-
-### Step 2: Prototype
-Login system. Embedded map with pins indicating the last date the medication was reported in stock at locations in the region. Forms for users to submit data: data, dosage, manufacturer(?), available or not. Search with filters. 
-
-Quality warning system? Allow users to also post warnings if they have a negative reaction to the particular manufacturer? Maybe only if it's not their first time using the drug. Ex: Getting a different manufacturer's patches causes itching/skin irritations. Show some kind of stat for how many reports there are and a classification for the type of report, rather than actually displaying the reports.
-
-### Step 3: Tech Stack
-
-## Status
-Surveying community to establish viability of example for prototype.
+## Scope
+- Non-controlled medications only. Controlled substances are out of scope.
+- Reports use structured fields only: no free text, no medical advice.
+- Not a pharmacy, marketplace, or source of clinical guidance.
