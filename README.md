@@ -20,3 +20,8 @@ Brief survey of community for indications that a) the shortage is still widespre
 Login system. Embedded map with pins indicating the last date the medication was reported in stock at locations in the region. Forms for users to submit data: data, dosage, manufacturer(?), available or not. Search with filters. 
 
 Quality warning system? Allow users to also post warnings if they have a negative reaction to the particular manufacturer? Maybe only if it's not their first time using the drug. Ex: Getting a different manufacturer's patches causes itching/skin irritations. Show some kind of stat for how many reports there are and a classification for the type of report, rather than actually displaying the reports.
+
+### Step 3: Tech Stack
+
+## Status
+Surveying community to establish viability of example for prototype.
